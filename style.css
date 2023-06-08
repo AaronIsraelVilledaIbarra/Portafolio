@@ -1,0 +1,57 @@
+/*CSS Reset / Normalize*/
+body {
+    box-sizing: border-box;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    font-family: "Raleway";
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    width: 100vw;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+textarea:focus,
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+/* Mobile First */
+.todo {
+    margin: 0 16px 0 16px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Sección menu */
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+section header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Ralawey";
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
