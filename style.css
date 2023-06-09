@@ -55,7 +55,6 @@ section header{
     color: #464646;
 }
 
-/* sección title */
 section header h3.menu-title {
     margin-left: 8px;
 }
@@ -69,6 +68,7 @@ section.menu nav li {
     font-weight: 400;
 }
 
+/* sección title */
 section.title div.title-div div.title-container h2 {
     font-size: 22px;
     font-weight: 700;
@@ -110,6 +110,30 @@ section.about div.about-container p {
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+}
+
+section.about div.about-container img {
+    margin: 16px;
+}
+
+/* Sección skills */
+section.skills div.skills-line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+section.skills div.skills-line div.skills-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    background-color: #fbfbfb;
+    margin: 22px 0 22px 0;
+    width: 156px;
+    height: 118px;
 }
 
 
