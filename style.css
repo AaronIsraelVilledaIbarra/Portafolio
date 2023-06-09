@@ -42,6 +42,7 @@ section.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: flex-end;
     height: 10vh;
 }
 
@@ -49,7 +50,7 @@ section header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: "Ralawey";
+    font-family: "Ralewey";
     font-weight: 700;
     font-size: 16px;
     color: #464646;
@@ -127,14 +128,57 @@ section.skills div.skills-line {
 section.skills div.skills-line div.skills-box {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     padding: 16px;
     background-color: #fbfbfb;
     margin: 22px 0 22px 0;
     width: 156px;
     height: 118px;
 }
+
+section.skills div.skills-line div.skills-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.skills div.skills-line div.skills-box ul li img {
+    width: 100px;
+}
+
+/* Sección hobbies */
+section.hobbies-section div.hobbies-line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+section.hobbies-section div.hobbies-line div.hobbies-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    background-color: #fbfbfb;
+    margin: 22px 0 22px 0;
+    width: 156px;
+    height: 150px;
+}
+
+section.hobbies-section div.hobbies-line div.hobbies-box ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.hobbies-section div.hobbies-line div.hobbies-box ul li img {
+    width: 85px;
+}
+
+
+
+
+
 
 
 
