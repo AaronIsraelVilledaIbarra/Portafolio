@@ -243,7 +243,11 @@ section.experience div.experiencia-box div.experience-description {
     display: flex;
 }
 
-section.experience div.experiencia-box span.experience-repo button {
+.experience-description {
+    display: flex;
+}
+
+.button-repo {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -251,10 +255,10 @@ section.experience div.experiencia-box span.experience-repo button {
     padding: 12px 16px;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 
-section.experience div.experiencia-box span.experience-demo button {
+.button-demo {
     display: flex;
     flex-direction: row;
     justify-content: center;
