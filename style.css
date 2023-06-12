@@ -216,9 +216,147 @@ section.academic div.courses ul li.course-subtitle {
     text-align: start;
 }
 
+/* Sección experiencia */
+section.experience {
+    margin-top: 13px;
+}
 
+section.experience div.experiencia-box {
+    margin: 0 32px 64px 32px;
+}
 
+section.experience div.experiencia-box img {
+    margin-bottom: 16px;
+}
 
+section.experience div.experiencia-box h2 {
+    font-weight: 700;
+    font-size: 16px;
+}
 
+section.experience div.experiencia-box h3 {
+    font-weight: 500;
+    font-size: 14px;
+}
 
+section.experience div.experiencia-box div.experience-description {
+    display: flex;
+}
+
+section.experience div.experiencia-box span.experience-repo button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    box-sizing: border-box;
+}
+
+section.experience div.experiencia-box span.experience-demo button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    margin-left: 16px;
+    border: 1px solid #2A7AE4;
+    background: #2A7AE4;
+    color: white;
+}
+
+section.experience img {
+    width: 100%;
+}
+
+/* Sección contacto */
+section.formcontacto {
+    background-color: #EAF2FD;
+    padding: 16px;
+}
+
+section.formcontacto div.left img.contact-img {
+    display: none;
+}
+
+section.formcontacto div.contact div.contact-text h3.contact-subtext {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+}
+
+section.formcontacto div.contact div.contact-text h2.contact-title {
+    font-weight: 700;
+    font-size: 22px;
+    padding: 10px;
+}
+
+section.formcontacto form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 0;
+}
+
+section.formcontacto form input {
+    border: transparent;
+    flex-grow: 1;
+    margin: 10px 0;
+    height: 56px;
+    width: 80vw;
+}
+
+form input::placeholder {
+    color: #464646;
+    font-family: "Raleway";
+}
+
+section.formcontacto form input:focus {
+    border-bottom: solid 2px #2A7AE4;
+}
+
+section.formcontacto form textarea {
+    border: transparent;
+    flex-grow: 1;
+    margin: 10px 0;
+    height: 96px;
+    width: 80vw;
+}
+
+section.formcontacto form textarea:focus {
+    border-bottom: solid 2px #2A7AE4;
+}
+
+textarea::placeholder {
+    color: #464646;
+    font-family: "Raleway";
+}
+
+form.form button {
+    border: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    background-color: #2A7AE4;
+    color: white;
+    margin: 32px 0;
+}
+
+/* Footer */
+section.footer {
+    height: 10vh;
+    background-color: white;
+}
+
+section.footer div.rodapie {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
 
