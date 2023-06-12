@@ -360,3 +360,77 @@ section.footer div.rodapie {
     text-align: center;
 }
 
+@media (min-width: 700px) {
+    .todo {
+        margin: 32px 32px;
+    }
+
+    /* Sección titulo */
+    section.title {
+        margin-bottom: 32px;
+    }
+
+    div title.div {
+        justify-content: space-around;
+        align-content: flex-start;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    div.title-container {
+        width: 524px;
+    }
+
+    section.title img.profile {
+        width: 157px;
+        margin-left: 32px;
+    }
+
+    /* Sección Skills */
+
+    section.skills div.skills-line {
+        width: 100%;
+    }
+
+    section.skills div.skills-line div.skills-box {
+        margin: 22px 12px 10px 0;
+        width: 180px;
+        height: 118px;
+    }
+
+    /* Sección Hobbies */
+    section.hobbies-section div.hobbies-line {
+        width: 100%;
+    }
+
+    section.hobbies-section div.hobbies-line div.hobbies-box {
+        margin: 22px 15px 10px 0;
+        width: 180px;
+        height: 108px;
+    }
+
+    /* Seccion Experiencia académica */
+    section.academic div.courses {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    section.academic div.courses-box {
+        width: 18rem;
+    }
+
+    section.academic div.courses ul li.courses-img img {
+        width: 50%;
+    }
+
+    /* Sección experiencia profesional */
+    section.experience div.experiencia-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.experience div.experiencia-box img {
+        width: 100%;
+    }
+}
+
