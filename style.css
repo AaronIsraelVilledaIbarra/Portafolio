@@ -230,7 +230,7 @@ section.experience div.experiencia-box img {
 }
 
 section.experience div.experiencia-box h2 {
-    font-weight: 700;
+    font-weight: 700;   
     font-size: 16px;
 }
 
@@ -413,6 +413,7 @@ section.footer div.rodapie {
     section.academic div.courses {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     section.academic div.courses-box {
@@ -420,7 +421,7 @@ section.footer div.rodapie {
     }
 
     section.academic div.courses ul li.courses-img img {
-        width: 50%;
+        width: 280px;
     }
 
     /* Sección experiencia profesional */
@@ -590,4 +591,35 @@ section.footer div.rodapie {
         padding: 1%;
     }
 
+}
+
+@media (min-width: 1440px) {
+    
+    div.about-container {
+        height: 255px;
+    }
+
+    section.skills div.skills-line {
+        justify-content: center;
+    }
+
+    section.skills div.skills-line div.skills-box {
+        margin: 22px 15px 22px 0;
+        width: 156px;
+        height: 118px;
+    }
+
+    section.hobbies-section div.hobbies-line {
+        justify-content: center;
+    }
+
+    section.hobbies-section div.hobbies-line div.hobbies-box {
+        margin: 22px 15px 22px 0;
+        width: 156px;
+        height: 118px;
+    }    
+
+    section.formcontacto {
+        padding: 64px 172px;
+    }
 }
