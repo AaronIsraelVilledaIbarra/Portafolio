@@ -72,6 +72,9 @@ section.menu nav li {
 /* sección title */
 .title-div {
 display: flex;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+
 }
 
 section.title div.title-div div.title-container h2 {
