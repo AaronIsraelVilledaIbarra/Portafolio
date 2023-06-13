@@ -214,13 +214,17 @@ section.academic div.courses ul li.courses-title h4 {
     font-weight: 700;
     font-size: 16px;
     margin-bottom: -25px;
-    text-align: start;
+    text-align: center;
 }
 
 section.academic div.courses ul li.courses-subtitle {
     font-weight: 500;
     font-size: 14px;
-    text-align: start;
+    text-align: center;
+}
+
+.courses-image {
+    width: 40%;
 }
 
 /* Sección experiencia */
@@ -431,9 +435,12 @@ section.footer div.rodapie {
         width: 18rem;
     }
 
-    section.academic div.courses ul li.courses-img img {
-        width: 280px;
+    .courses-image {
+        width: 70%;
     }
+    /* section.academic div.courses ul li.courses-img img {
+        width: 280px;
+    } */
 
     /* Sección experiencia profesional */
     section.experience div.experiencia-box {
