@@ -70,6 +70,10 @@ section.menu nav li {
 }
 
 /* sección title */
+.title-div {
+display: flex;
+}
+
 section.title div.title-div div.title-container h2 {
     font-size: 22px;
     font-weight: 700;
@@ -91,7 +95,7 @@ section.title div.title-div div.title-container ul {
     font-size: 14px;
 }
 
-section.title img.profile {
+.img-profile {
     width: 20%;
 }
 
@@ -270,7 +274,7 @@ section.experience div.experiencia-box div.experience-description {
     color: white;
 }
 
-section.experience img {
+.img-experience {
     width: 100%;
 }
 
@@ -375,10 +379,10 @@ section.footer div.rodapie {
     }
 
     div title.div {
-        justify-content: space-around;
+        justify-content: space-between;
         align-content: flex-start;
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 
     div.title-container {
@@ -533,6 +537,14 @@ section.footer div.rodapie {
     }
 
     /* Sección experiencia profesional */
+    .img-experience {
+        margin: 15px 15px 15px 15px;
+    }
+
+    .info-container {
+        margin: 15px 15px 15px 15px;
+    }
+
     section.experiencie div.experiencia-box {
         display: flex;
         flex-direction: row;
@@ -551,8 +563,8 @@ section.footer div.rodapie {
         flex-direction: row-reverse;
     }
 
-    section.experience div.info-container {
-        margin: 0 5%;
+    section.experiencie div.experiencia-box:nth-child(7) {
+        flex-direction: row-reverse;
     }
 
     section.experiencie div.experiencia-box img {
